@@ -1,14 +1,14 @@
 
-const assertEqual = function(actual, expected) {
+// const assertEqual = function(actual, expected) {
 
-  if (actual === expected) {
-    console.log(`✅✅✅Assertion Paseed: [${actual}] === [${expected}]`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion failed :[${actual}] !=== [${expected}]`);
+//   if (actual === expected) {
+//     console.log(`✅✅✅Assertion Paseed: [${actual}] === [${expected}]`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion failed :[${actual}] !=== [${expected}]`);
 
-  }
-}; 
-
+//   }
+// }; 
+const assertEqual = require('./assertEqual');
 const head = function(array){
   if (array === []){
     return undefined;
@@ -19,8 +19,5 @@ const head = function(array){
 }
 
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]));
-assertEqual(head([4]),4);
+module.exports = head;
 
