@@ -11,11 +11,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @smalhotra1996/lotide`
+`npm install @sonammalhotra/lotide`
 
 **Require it:**
 
-`const _ = require('@smalhotra1996/lotide');`
+`const _ = require('@sonammalhotra/lotide');`
 
 **Call it:**
 
@@ -25,6 +25,15 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* `assertEqual(actual, expected)`: assertEqual will check the value if its equal. There are two arguments actual and expected so first should be actual value and second should be you are expecting.
+
+* `assertObjectsEqual(actual,expected)`: This check if two objects are equal or not in this function i used eqobjects as i did use it before.
+
+* `countLetters(sentence)`: It counts all the letters in the sentence if It comes more than once.
+
+* `assertArrayEqual(array1,array2)`: It checks if two arrays are equal or not.
+
+* `eqObjects(object1,object2)`: It checks if two objects of key and value are equal or not.
+
+* `findKey(obj,callback)`: It finds the key in object.
+

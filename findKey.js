@@ -23,18 +23,6 @@ const findKey = function(obj,callback){
   
 }
 
-// const findKey = function(object, callback){
-//   for (const i in object) {
-//      // console.log("---", callback(object[i]));
-//    //  console.log("---", object[i]);
-//    if (callback(object[i]) === true){
-//      console.log(i);
-//        return i;
-//    }  
-//   }
-//   return undefined;
-// }
-
 
 findKey({
   "Blue Hill": { stars: 1 },
